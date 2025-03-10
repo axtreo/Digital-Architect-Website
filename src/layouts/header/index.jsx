@@ -39,19 +39,19 @@ const Header = () => {
                             </div>
                         </div>
 
-                        <div className="header-menu-toggler">
+                        {/* <div className="header-menu-toggler">
                             <button
                                 className="menu-toggler"
                                 onClick={onCanvasHandler}
                             >
                                 <i className="fal fa-bars"></i>
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
-            <HamburgerMenu show={ofcanvasShow} onClose={onCanvasHandler} />
-            <MenuOverlay show={ofcanvasShow} />
+            {/* <HamburgerMenu show={ofcanvasShow} onClose={onCanvasHandler} /> */}
+            {/* <MenuOverlay show={ofcanvasShow} /> */}
         </Fragment>
     );
 };

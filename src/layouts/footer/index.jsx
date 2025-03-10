@@ -5,11 +5,13 @@ const Footer = () => {
                 <div className="footer-info-box text-center">
                     <h4 className="title">Let’s work together</h4>
                     <h2 className="mail">
-                        <a href="mailto:someone@example.com">hello@andle.com</a>
+                        <a href="mailto:someone@example.com">
+                            intekhab@digitalarchitect.com.bd
+                        </a>
                     </h2>
                 </div>
 
-                <div className="footer-copyright-social">
+                {/* <div className="footer-copyright-social">
                     <div className="footer-copyright">
                         <p>
                             &copy; 2023 <span> Andle</span> Made with{" "}
@@ -68,7 +70,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

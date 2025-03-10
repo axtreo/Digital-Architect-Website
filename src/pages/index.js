@@ -17,7 +17,7 @@ const HomePage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Andle - Personal Portfolio React JS Template" />
+                <SEO title="Digital Architect" />
                 <div className="main-wrapper">
                     <Header />
                     <IntroContainer />
@@ -26,7 +26,7 @@ const HomePage = () => {
                     <IconBoxContainer />
                     <FunfactContainer />
                     <WorkContainer />
-                    <AboutAward />
+                    {/* <AboutAward /> */}
                     <TestimonialContainer />
                     <Footer />
                 </div>

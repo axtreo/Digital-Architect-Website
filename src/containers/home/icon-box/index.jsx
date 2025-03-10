@@ -8,7 +8,7 @@ const IconBoxContainer = () => {
         <div className="section section-padding-02">
             <div className="container">
                 <div className="why-choose-section mt-n3">
-                    <SectionTitle title="why choose me" />
+                    <SectionTitle title="why choose us" />
 
                     <div
                         className="why-choose-wrapper"
